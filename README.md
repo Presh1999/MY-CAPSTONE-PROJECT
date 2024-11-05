@@ -94,7 +94,10 @@ The following key metrics will be derived:
  - 	Power BI: For visualizing data trends and metrics, including creating dashboards and interactive reports that can display sales trends, region-specific insights, and performance of 
     products.
 
+ - Pivot 1
+https://github.com/Presh1999/MY-CAPSTONE-PROJECT/blob/966d70415587e5b2eec09ab5b9717986c9054336/pivot1.png
 
+ - Pivot 2
 https://github.com/Presh1999/MY-CAPSTONE-PROJECT/blob/5955e29a8e59d9559ca8947af5d8a07b85bc051a/pivot2.png
    	
 
