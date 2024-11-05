@@ -1,2 +1,107 @@
 # MY-CAPSTONE-PROJECT
 This report is a company's customer and sales dataset used to analyze top performing products, and regional breakdowns.
+
+### Overview
+This project aims to analyze and visualize the sales performance of a company across different regions, customers, products, and subscription types. By combining the sales data and customer data, we will derive insights such as sales trends, top-performing products, and subscription revenue. The analysis will be done using Excel for basic data handling, SQL for querying and aggregating data, and Power BI for advanced visualizations.
+
+### Project Objective
+
+The objective of this analysis is to:
+  i.Identify overall sales trends over time.
+  ii.Determine the top customers in each region based on their total sales.
+  iii.Evaluate the performance of products in different regions and identify   the highest-selling products.
+  iv.	Analyze subscription types with the highest revenue, focusing on Premium, Standard, and Basic subscriptions.
+  v	Provide key metrics to help inform business decisions related to product offerings, customer segmentation, and regional sales strategies.
+
+
+  ### Data Sources
+  ) Sales Data (Excel)
+The sales data consists of the following columns:
+•	OrderID: Unique identifier for each order.
+•	Customer Id: Unique identifier for customers.
+•	Product: The item purchased.
+•	Region: The region where the sale occurred.
+•	OrderDate: The date the order was placed.
+•	Quantity: The number of items purchased.
+•	UnitPrice: Price per unit of the product.
+•	Transaction Category: The level of the transaction (Low, Medium, High).
+•	Total Sales: The total value of the sale (calculated as Quantity * UnitPrice).
+•	Customer Name: Name of the customer.
+b) Customer Data (Excel)
+This dataset includes information on customer subscriptions:
+•	Customer Name: Name of the customer.
+•	Region: Region of the customer.
+•	Subscription Type: Type of subscription (Basic, Premium, Standard).
+•	Subscription Start/End: Start and end dates of the subscription.
+•	Canceled: Whether the subscription was canceled.
+•	Revenue: Total revenue generated from the customer during the subscription period.
+•	Subscription Duration: Duration of the subscription in days.
+c) SQL Reports
+SQL queries have been written to extract key sales and customer metrics, such as:
+•	Total sales for each product.
+•	Sales transactions by region.
+•	Top-selling products.
+•	Sales by region and product.
+•	Customer revenue and monthly sales totals.
+
+
+### Tools Used
+•	Excel: For preliminary data cleaning, filtering, and basic analysis (e.g., calculating total sales, monthly trends).
+•	SQL: For querying the database, joining tables, and aggregating data (e.g., revenue, total sales, and region-specific metrics).
+•	Power BI: For visualizing data trends and metrics, including creating dashboards and interactive reports that can display sales trends, region-specific insights, and performance of products.
+
+
+ ### Data Analysis
+ •	Excel: For preliminary data cleaning, filtering, and basic analysis (e.g., calculating total sales, monthly trends).
+•	SQL: For querying the database, joining tables, and aggregating data (e.g., revenue, total sales, and region-specific metrics).
+•	Power BI: For visualizing data trends and metrics, including creating dashboards and interactive reports that can display sales trends, region-specific insights, and performance of products.
+
+
+### SQL Queries and Aggregation
+The SQL queries provided will be used for deeper insights, such as:
+•	Total Sales per Product: Querying total sales for each product category.
+•	Regional Sales Analysis: Determining the total number of sales transactions by region.
+•	Revenue Analysis by Subscription Type: Identifying which subscription types generate the highest revenue.
+•	Sales Metrics by Customer: Using SQL joins to combine sales data with customer information and calculate total revenue per customer.
+
+
+### Power BI Analysis
+•	Sales Trend Analysis: We can create time-series visualizations in Power BI to see how sales have evolved over time (e.g., by month, quarter, or year).
+•	Customer Revenue by Subscription Type: A bar chart or pie chart to visualize which subscription types are generating the most revenue.
+•	Product Performance by Region: Power BI dashboards will provide a visual breakdown of which products are performing best in each region.
+•	Key Metrics Dashboard: A Power BI dashboard will consolidate important metrics like total sales, highest-selling products, top regions, and customer revenues.
+
+
+### Visual Analysis and Inference
+In Power BI, we will create the following visualizations:
+1.	Sales by Region and Product: A stacked bar chart or pie chart showing the total sales per region and per product.
+2.	Sales Trend Over Time: Line charts showing total sales by month, allowing us to observe any seasonality or trends.
+3.	Customer Revenue by Subscription Type: A bar chart comparing revenue generated by customers based on their subscription type.
+4.	Top Customers by Region: A table or bar chart to identify the highest-spending customers in each region.
+5.	Top Performing Products: A visual representation (e.g., bar or column chart) to highlight the best-selling products by region.
+6.	Revenue by Transaction Category: A pie chart or bar chart comparing the revenue for each transaction category (Low, Medium, High).
+
+
+### Inferences:
+•	Sales Trends: Identify periods of peak sales (e.g., specific months or seasons) and low sales. Adjust marketing or inventory strategies accordingly.
+•	Top Customers: Recognizing the most valuable customers can help tailor retention strategies, loyalty programs, or targeted promotions.
+•	Product Performance: Insight into which products are performing best in which regions can help guide stock replenishment and marketing focus.
+•	Subscription Insights: Analyzing which subscription types generate the most revenue will inform pricing or promotional strategies.
+
+
+### Key Metrics
+The following key metrics will be derived:
+•	Total Revenue: The sum of all sales transactions across products and regions.
+•	Revenue by Subscription Type: A breakdown of revenue from Basic, Premium, and Standard subscriptions.
+•	Top 5 Products by Sales: The five products with the highest sales figures.
+•	Top 5 Customers by Region: The customers who contributed the most revenue in each region.
+•	Monthly Sales Growth: Month-over-month change in total sales.
+•	Subscription Duration: The average subscription duration for each type of subscription.
+
+
+
+
+
+
+
+
