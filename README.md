@@ -54,7 +54,7 @@ SQL queries have been written to extract key sales and customer metrics, such as
 
 ### Tools Used
 -----
-- 	Excel: For preliminary data cleaning, filtering, and basic analysis (e.g., calculating total sales, monthly trends).
+- 	Excel: For preliminary data cleaning, filtering, and basic analysis (e.g., calculating total sales, monthly trends). 
 - 	SQL: For querying the database, joining tables, and aggregating data (e.g., revenue, total sales, and region-specific metrics).
 - 	Power BI: For visualizing data trends and metrics, including creating dashboards and interactive reports that can display sales trends, region-specific insights, and performance of 
      products.
