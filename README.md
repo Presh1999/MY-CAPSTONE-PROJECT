@@ -154,6 +154,9 @@ In Power BI, we will create the following visualizations:
  - Top Performing Products: A visual representation (e.g., bar or column chart) to highlight the best-selling products by region.
  -  Revenue by Transaction Category: A pie chart or bar chart comparing the revenue for each transaction category (Low, Medium, High).
 
+PowerBI Table
+https://github.com/Presh1999/MY-CAPSTONE-PROJECT/blob/5103aa09c39f5c32ab3e355a567f522a6a20e05e/PowerBI%20table.png
+
 
 ### Inferences:
 -----
