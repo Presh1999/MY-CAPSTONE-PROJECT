@@ -93,6 +93,9 @@ The following key metrics will be derived:
  - 	SQL: For querying the database, joining tables, and aggregating data (e.g., revenue, total sales, and region-specific metrics).
  - 	Power BI: For visualizing data trends and metrics, including creating dashboards and interactive reports that can display sales trends, region-specific insights, and performance of 
     products.
+
+
+https://github.com/Presh1999/MY-CAPSTONE-PROJECT/blob/5955e29a8e59d9559ca8947af5d8a07b85bc051a/pivot2.png
    	
 
 ### SQL Queries and Aggregation
