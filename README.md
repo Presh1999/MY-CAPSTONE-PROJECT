@@ -157,6 +157,9 @@ In Power BI, we will create the following visualizations:
 PowerBI Table
 https://github.com/Presh1999/MY-CAPSTONE-PROJECT/blob/5103aa09c39f5c32ab3e355a567f522a6a20e05e/PowerBI%20table.png
 
+PowerBI Visualization
+https://github.com/Presh1999/MY-CAPSTONE-PROJECT/blob/10e7abcc186df183da084733b831cc52ecbb6c17/PowerBI%20visualization.png
+
 
 ### Inferences:
 -----
