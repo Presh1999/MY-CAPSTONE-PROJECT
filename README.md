@@ -9,47 +9,47 @@ This project aims to analyze and visualize the sales performance of a company ac
 ### Project Objective
 ------
 The objective of this analysis is to:
-  i.Identify overall sales trends over time.
-  ii.Determine the top customers in each region based on their total sales.
-  iii.Evaluate the performance of products in different regions and identify   the highest-selling products.
-  iv.	Analyze subscription types with the highest revenue, focusing on Premium, Standard, and Basic subscriptions.
-  v	Provide key metrics to help inform business decisions related to product offerings, customer segmentation, and regional sales strategies.
+  -   Identify overall sales trends over time.
+  -   Determine the top customers in each region based on their total sales.
+  -   Evaluate the performance of products in different regions and identify  the highest-selling products.
+  -   Analyze subscription types with the highest revenue, focusing on Premium, Standard, and Basic subscriptions.
+  -   Provide key metrics to help inform business decisions related to product offerings, customer segmentation, and regional sales strategies.
 
 
   ### Data Sources
   -----
   - Sales Data (Excel)
  The sales data consists of the following columns:
-  1.	OrderID: Unique identifier for each order.
-  2.	Customer Id: Unique identifier for customers.
-  3.  Product: The item purchased.
-  4.	Region: The region where the sale occurred.
-  5.	OrderDate: The date the order was placed.
-  6.	Quantity: The number of items purchased.
-  7.	UnitPrice: Price per unit of the product.
-  8. Transaction Category: The level of the transaction (Low, Medium, High).
-  9.	Total Sales: The total value of the sale (calculated as Quantity * 
+     -	OrderID: Unique identifier for each order.
+     -	Customer Id: Unique identifier for customers.
+     -    Product: The item purchased.
+     -	Region: The region where the sale occurred.
+     -	OrderDate: The date the order was placed.
+     -	Quantity: The number of items purchased.
+     -	UnitPrice: Price per unit of the product.
+     - Transaction Category: The level of the transaction (Low, Medium, High).
+     -	Total Sales: The total value of the sale (calculated as Quantity * 
      UnitPrice).
-  10.	Customer Name: Name of the customer.
+     -	Customer Name: Name of the customer.
       
 - Customer Data (Excel)
  This dataset includes information on customer subscriptions:
-	  1 .Customer Name: Name of the customer.
-    2. Region: Region of the customer.
-    3. Subscription Type: Type of subscription (Basic, Premium, Standard).
-    4. Subscription Start/End: Start and end dates of the subscription.
-    5. Canceled: Whether the subscription was canceled.
-    6. Revenue: Total revenue generated from the customer during the subscription 
+     -  Customer Name: Name of the customer.
+     -  Region: Region of the customer.
+     -  Subscription Type: Type of subscription (Basic, Premium, Standard).
+     -  Subscription Start/End: Start and end dates of the subscription.
+     -  Canceled: Whether the subscription was canceled.
+     -  Revenue: Total revenue generated from the customer during the subscription 
        period.
-    7. Subscription Duration: Duration of the subscription in days.
+     -  Subscription Duration: Duration of the subscription in days.
   
 -  SQL Reports
 SQL queries have been written to extract key sales and customer metrics, such as:
- 1. Total sales for each product.
- 2. Sales transactions by region.
- 3.	Top-selling products.
- 4.	Sales by region and product.
- 5.	Customer revenue and monthly sales totals.
+   -  Total sales for each product.
+   -  Sales transactions by region.
+   -  Top-selling products.
+   -  Sales by region and product.
+   -  Customer revenue and monthly sales totals.
 
 
 ### Tools Used
@@ -63,18 +63,18 @@ SQL queries have been written to extract key sales and customer metrics, such as
 ### Data cleaning and preparations
 -----
  In the initial phase of the data cleaning and preparations, the following action was carried out
-   1.	Data loading into excel, SQL and powerBi
-   2.	Handling missing variables
-   3.	Data cleaning and formatting
+   -	Data loading into excel, SQL and powerBi
+   -	Handling missing variables
+   -	Data cleaning and formatting
 
 
 ###	Exploratory Data Analysis
 -----
  Exploratory data analysis involves exploring the dataset to answer some questions about the data such as;
-  1. What is the overall sales trend
-  2. Top customers in different regions
-  3. Top performing products in different regions
-  4. Subscription type with the highest revenue
+  -  What is the overall sales trend
+  -  Top customers in different regions
+  -  Top performing products in different regions
+  -  Subscription type with the highest revenue
 
      ### Key Metrics
      -----
