@@ -137,7 +137,19 @@ ON SalesData$.[Customer Id]=CustomerData$.[CustomerID]
 GROUP BY [Customer ID]
 ```
 
-### Power BI Analysis
+### Data Analysis in PowerBI
+-  Step 1: Import the Data
+      -  Open Power BI Desktop.
+      -  Go to Home > Get Data > Excel or SQL Server (depending on where your data is stored).
+       - 	Import the dataset into Power BI.
+
+-  Step 2: Create a calculated column for Revenue
+    -     Total Revenue = Sum (Data[Revenue])
+ 
+    
+
+
+
   - Sales Trend Analysis: We can create time-series visualizations in Power BI to see how sales have evolved over time (e.g., by month, quarter, or year).
  -  Customer Revenue by Subscription Type: A bar chart or pie chart to visualize which subscription types are generating the most revenue.
  -  Product Performance by Region: Power BI dashboards will provide a visual breakdown of which products are performing best in each region.
